@@ -14,6 +14,8 @@ Paste your email content and get a compelling subject line instantly!
 
 ## 📦 Installation
 
+> **Requires Python 3.11 or 3.12**
+
 1. Clone the repo:
 
 ```bash
