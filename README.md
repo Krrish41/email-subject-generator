@@ -51,7 +51,9 @@ Hi Arjun,
 
 We noticed you haven’t stopped by in a while—and we miss you!
 
-A lot has changed since your last visit. New arrivals, upgraded features, and members-only offers are waiting for you. And just to make it sweeter, here’s a 20% discount on your next purchase.
+A lot has changed since your last visit. New arrivals, upgraded features,
+and members-only offers are waiting for you. And just to make it sweeter,
+here’s a 20% discount on your next purchase.
 
 Use code WELCOME20 at checkout. But act fast—this offer expires in 72 hours.
 
