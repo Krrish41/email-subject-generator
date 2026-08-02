@@ -1,5 +1,7 @@
 # 📬 AI Email Subject Line Generator (IBM Granite)
 
+🌐 **Live Demo**: [email-subject-generator](https://krrish41.github.io/email-subject-generator/)
+
 Generate catchy and relevant email subject lines using IBM's Granite 3.3 8B Instruct model and a simple Gradio interface.
 
 ## 🚀 Demo
