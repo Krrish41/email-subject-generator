@@ -1,3 +1,15 @@
+---
+title: AI Email Subject Line Generator
+emoji: 📬
+colorFrom: blue
+colorTo: green
+sdk: gradio
+sdk_version: 5.0.1
+app_file: app.py
+pinned: false
+license: mit
+---
+
 # 📬 AI Email Subject Line Generator (IBM Granite)
 
 🌐 **Live Demo**: [email-subject-generator](https://huggingface.co/spaces/Krrish41/email-subject-generator)
