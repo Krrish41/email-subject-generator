@@ -1,11 +1,14 @@
+import os
 import gradio as gr
 from ibm_watson_machine_learning.foundation_models import Model
 from ibm_watson_machine_learning import APIClient
 
-# Replace <your-api-key> ; <your-project-id> & <your-region>
-API_KEY = "<your-api-key>"
-PROJECT_ID = "<your-project-id>"
-REGION = "<your-region>"
+API_KEY = os.environ.get("IBM_API_KEY")
+PROJECT_ID = os.environ.get("IBM_PROJECT_ID")
+REGION = os.environ.get("IBM_REGION", "us-south")
+
+if not API_KEY or not PROJECT_ID:
+    raise RuntimeError("Set IBM_API_KEY and IBM_PROJECT_ID as environment variables (or HF Space Secrets).")
 
 wml_credentials = {
     "apikey": API_KEY,
