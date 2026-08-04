@@ -1,15 +1,3 @@
----
-title: Email Subject Line Generator
-emoji: 📬
-colorFrom: blue
-colorTo: green
-sdk: gradio
-sdk_version: 5.0.1
-app_file: app.py
-pinned: false
-license: mit
----
-
 # Email Subject Line Generator
 
 A simple tool that generates email subject lines using IBM's Granite 3.3 8B model via Watson Machine Learning, wrapped in a Gradio interface.
