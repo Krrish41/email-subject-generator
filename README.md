@@ -1,31 +1,71 @@
-# Email Subject Generator
-> A cool project created by Krrish41.
+# Email Subject Line Generator
 
-## Overview
-This project, **email-subject-generator**, was developed to solve specific challenges or explore new technologies. It serves as a demonstration of coding practices and problem-solving skills.
+A simple tool that generates email subject lines using IBM's Granite 3.3 8B model via Watson Machine Learning, wrapped in a Gradio interface.
 
-## Highlights / Key Features
-- **Core Functionality**: Delivers on the primary objective defined in the project description.
-- **Clean Implementation**: Codebase structured for readability and maintenance.
+## What it does
 
-## Getting Started / Installation
-1. Clone the repository:
-   \\ash
+Paste your email content, get a subject line back. That's it.
+
+## Powered by
+
+- IBM Watson Machine Learning
+- Granite-3-3-8B-Instruct
+- Gradio for the UI
+
+## Getting started
+
+You'll need Python 3.11 or 3.12 and an IBM WML account.
+
+1. Clone and install:
+   ```bash
    git clone https://github.com/Krrish41/email-subject-generator.git
    cd email-subject-generator
-   \2. Follow standard setup instructions for a Python project.
+   pip install -r requirements.txt
+   ```
 
-## Usage
-Explore the source code to understand the internal workings and run the project locally.
+2. Add your credentials to `app.py`:
+   ```python
+   API_KEY = "your-api-key"
+   PROJECT_ID = "your-project-id"
+   REGION = "your-region"  # e.g., us-south
+   ```
 
-## Built With
-- **Python** - Primary language used.
+3. Run it:
+   ```bash
+   python app.py
+   ```
 
-## Contributing
-Contributions are always welcome! Feel free to open an issue or submit a PR.
+   Opens at `http://localhost:7860`.
 
-## License & Credits
-Open source. Check the repository for the exact LICENSE file if available.
+## Example
 
-## Support & Contact
-Contact the maintainer at krrish4173@gmail.com.
+**Input:**
+```
+Hi Arjun,
+
+We noticed you haven't stopped by in a while—and we miss you!
+
+A lot has changed since your last visit. New arrivals, upgraded features,
+and members-only offers are waiting for you. And just to make it sweeter,
+here's a 20% discount on your next purchase.
+
+Use code WELCOME20 at checkout. But act fast—this offer expires in 72 hours.
+
+Come back and rediscover what you've been missing.
+
+See you soon,
+The NovaStore Team
+```
+
+**Output:**
+```
+🎁 Arjun, Your Favorite Store Awaits with Exclusive Offers & 20% Discount! 🎁
+```
+
+## Note
+
+Keep your IBM API key private. Don't commit it to public repos.
+
+## Author
+
+Krrish Ranjan
